@@ -1,0 +1,21 @@
+name: ChatItem
+main: me.dadus33.chatitem.ChatItem
+version: 1.3.6.4
+depend: [ProtocolLib]
+softdepend: [ViaVersion, ProtocolSupport]
+author: dadus33
+commands:
+  cireload:
+    description: Reload the ChatItem config.
+    aliases: [chatitemreload, citemreload, cir]
+    permission: chatitem.reload
+permissions:
+  chatitem.reload:
+    description: Allows reloading the config
+    default: op
+  chatitem.use:
+    description: Allows your messages to be parsed by the plugin
+    default: op
+  chatitem.ignore-cooldown:
+    description: Allows you to ignore cooldowns (if enabled)
+    default: op

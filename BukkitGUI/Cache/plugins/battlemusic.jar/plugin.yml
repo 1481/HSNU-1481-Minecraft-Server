@@ -1,0 +1,13 @@
+name: BattleMusic
+author: LouShunt
+description: "Some epic custom music for your fight !"
+version: 2.5
+main: ca.loushunt.battlemusic.BattleMusic
+softdepend: [MCJukebox, NoteBlockAPI]
+website: https://www.youtube.com/c/LouShunt
+database: false
+commands:
+    battlemusicreload:
+        aliases: [bmr]
+        description: "Reload the config of BattleMusic"
+        permission: battlemusic.reload

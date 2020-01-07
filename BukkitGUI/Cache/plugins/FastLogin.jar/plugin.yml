@@ -1,0 +1,53 @@
+# project data for Bukkit in order to register our plugin with all it components
+# ${-} are variables from Maven (pom.xml) which will be replaced after the build
+name: FastLogin
+version: 1.10-git484855724b794de1fe057cf7360245362658b432
+main: com.github.games647.fastlogin.bukkit.FastLoginBukkit
+
+# meta data for plugin managers
+authors: [games647, 'https://github.com/games647/FastLogin/graphs/contributors']
+description: |
+    Automatically logins premium (paid accounts) player on a offline mode server
+website: https://www.spigotmc.org/resources/fastlogin.14153/fastlogin.bukkit/
+dev-url: https://www.spigotmc.org/resources/fastlogin.14153/fastlogin.bukkit/
+
+# Load the plugin as early as possible to inject it for all players
+load: STARTUP
+
+softdepend:
+    # We depend either ProtocolLib or ProtocolSupport
+    - ProtocolSupport
+    - ProtocolLib
+    - PlaceholderAPI
+
+commands:
+    FastLogin:
+        description: 'Label the invoker as premium'
+        aliases: [prem, premium, loginfast]
+        usage: /<command> [player]
+        permission: fastlogin.bukkit.command.premium
+
+    cracked:
+        description: 'Label the invoker or the player specified as cracked if he was marked premium before'
+        aliases: [unpremium]
+        usage: /<command> [player]
+        permission: fastlogin.bukkit.command.cracked
+
+permissions:
+    fastlogin.bukkit.command.premium:
+        description: 'Label themselves as premium'
+        default: true
+
+    fastlogin.bukkit.command.premium.other:
+        description: 'Label others as premium'
+        children:
+            fastlogin.bukkit.command.premium: true
+
+    fastlogin.bukkit.command.cracked:
+        description: 'Label themselves as cracked'
+        default: true
+
+    fastlogin.bukkit.command.cracked.other:
+        description: 'Label others as cracked'
+        children:
+            fastlogin.bukkit.command.cracked: true

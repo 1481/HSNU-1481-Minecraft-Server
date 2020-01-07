@@ -1,0 +1,6 @@
+name: SkQuery
+authors: [LimeGlass, w00tmast3r]
+version: 4.1.1
+api-version: 1.13
+depend: [Skript]
+main: com.w00tmast3r.skquery.SkQuery

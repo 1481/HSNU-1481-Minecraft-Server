@@ -1,0 +1,30 @@
+name: TreeGravity
+main: me.dudenn.treegravity.TreeGravity
+version: 4.3.0
+api-version: 1.15
+description: a tree feller plugin
+
+commands:
+  treegravity:
+    usage: /<command>
+    description: Shows TreeGravity commands.
+    aliases: [tg]
+    permission: tg.user
+    permission-message: You don't have permission!
+  tgd:
+    usage: /<command>
+    description: Gives the user a diamond axe.
+    permission: tg.operator
+    permission-message: You don't have permission!
+  tgconfig:
+    usage: /<command>
+    description: Allows the user to change TreeGravity config settings.
+    permission: tg.operator
+    permission-message: You don't have permission!
+permissions:
+  tg.operator:
+    description: Allows player to use /tgc and /tgd.
+    default: op
+  tg.user:
+    description: Allows player to use /tg and fell trees.
+    default: op

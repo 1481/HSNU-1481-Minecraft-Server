@@ -1,0 +1,23 @@
+name: LoginSecurity
+version: 2.1.9
+main: com.lenis0012.bukkit.loginsecurity.LoginSecurity
+author: lenis0012
+description: The #1 Auth plugin
+database: true
+commands:
+  login:
+    description: Login with your account.
+    usage: /login <password>
+  register:
+    description: Set a password for your account.
+    usage: /register <password>
+  changepassword:
+    description: Change your account password.
+    aliases: [changepass]
+    usage: /changepass <old pass> <new pass>
+  logout:
+    description: Log out of your account.
+    usage: /logout
+  lac:
+    description: LoginSecurity Admin command.
+    usage: /lac
