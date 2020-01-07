@@ -1,0 +1,140 @@
+ironOre_iron:
+  ==: Recipe
+  result: IRON_INGOT
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - IRON_ORE
+  - null
+  - null
+  - null
+  - null
+  permission: ''
+diamondSwordUpgrade1:
+  ==: Recipe
+  result: DIAMOND_SWORD1
+  recipe:
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_SWORD
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  permission: ''
+diamondSwordUpgrade2:
+  ==: Recipe
+  result: DIAMOND_SWORD2
+  recipe:
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_SWORD1
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  permission: ''
+diamondSwordUpgrade3:
+  ==: Recipe
+  result: DIAMOND_SWORD3
+  recipe:
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_SWORD2
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  permission: ''
+diamondSwordUpgrade4:
+  ==: Recipe
+  result: DIAMOND_SWORD4
+  recipe:
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_SWORD3
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  permission: ''
+diamondSwordUpgrade5:
+  ==: Recipe
+  result: DIAMOND_SWORD5
+  recipe:
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_SWORD4
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  permission: ''
+Diamond_Armored_Elytra:
+  ==: Recipe
+  result: §BDiamond Armored Elytra
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - DIAMOND_CHESTPLATE
+  - ELYTRA
+  - null
+  - null
+  - null
+  permission: ''
+Golden_Armored_Elytra:
+  ==: Recipe
+  result: §EGolden Armored Elytra
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - GOLDEN_CHESTPLATE
+  - ELYTRA
+  - null
+  - null
+  - null
+  permission: ''
+Iron_Armored_Elytra:
+  ==: Recipe
+  result: §7Iron Armored Elytra
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - IRON_CHESTPLATE
+  - ELYTRA
+  - null
+  - null
+  - null
+  permission: ''
+Leather_Armored_Elytra:
+  ==: Recipe
+  result: §2Leather Armored Elytra
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - LEATHER_CHESTPLATE
+  - ELYTRA
+  - null
+  - null
+  - null
+  permission: ''

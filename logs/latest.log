@@ -1,0 +1,31 @@
+[18:22:55] [Server thread/INFO]: Stopping the server
+[18:22:55] [Server thread/INFO]: Stopping server
+[18:22:55] [Server thread/INFO]: [EasyPrefix] Disabling EasyPrefix v1.6.3
+[18:22:55] [Server thread/INFO]: [SkQuery] Disabling SkQuery v4.1.1
+[18:22:55] [Server thread/INFO]: [TreeGravity] Disabling TreeGravity v4.3.0
+[18:22:55] [Server thread/INFO]: [TreeGravity] TreeGravity disabled
+[18:22:55] [Server thread/INFO]: [WebConsole] Disabling WebConsole v1.4
+[18:22:55] [Server thread/INFO]: [ArmoredElytra] Disabling ArmoredElytra v2.4.11
+[18:22:55] [Server thread/INFO]: [CraftEnhance] Disabling CraftEnhance v2.3.4
+[18:22:55] [Server thread/INFO]: [BattleMusic] Disabling BattleMusic v2.5
+[18:22:55] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.9
+[18:22:55] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[18:22:55] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[18:22:55] [Server thread/INFO]: [Skript] Disabling Skript v2.4
+[18:22:55] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
+[18:22:55] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
+[18:22:55] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
+[18:22:55] [Server thread/INFO]: [ChestCleaner] Disabling ChestCleaner v1.7
+[18:22:55] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.5
+[18:22:55] [Server thread/INFO]: [PlayerListGUI] Disabling PlayerListGUI v2.0
+[18:22:55] [Server thread/INFO]: Saving players
+[18:22:55] [Server thread/INFO]: Saving worlds
+[18:22:55] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:22:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:22:55] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[18:22:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:22:55] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[18:22:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:22:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:22:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

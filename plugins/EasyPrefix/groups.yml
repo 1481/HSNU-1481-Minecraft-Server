@@ -1,0 +1,61 @@
+# 
+# +------------------------------------------------------+ #
+# |                     - Groups -                       | #
+# |               Plugin by Christian34	  	     	      | #
+# +------------------------------------------------------+ #
+groups:
+  Owner:
+    prefix: '&4Owner &7| &4'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» &4%player% &7加入遊戲!'
+    quit-msg: '&8« &4%player% &7離開遊戲'
+  Admin:
+    prefix: '&4Admin &7| &4'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» &4%player% &7加入遊戲!'
+    quit-msg: '&8« &4%player% &7離開遊戲'
+  Developer:
+    prefix: '&3Dev &7| &4'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» &3%player% &7加入遊戲!'
+    quit-msg: '&8« &3%player% &7離開遊戲'
+  Moderator:
+    prefix: '&c&lMod &7| &c'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» &c%player% &7加入遊戲!'
+    quit-msg: '&8« &c%player% &7離開遊戲'
+  Supporter:
+    prefix: '&9Sup &7| &9'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» &9%player% &7加入遊戲!'
+    quit-msg: '&8« &9%player% &7離開遊戲'
+  Builder:
+    prefix: '&aBuilder &7| &a'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» &a%player% &7加入遊戲!'
+    quit-msg: '&8« &a%player% &7離開遊戲'
+  Vip:
+    prefix: '&eVIP &7| &e'
+    suffix: '&f:'
+    chat-formatting: '%rainbow%'
+    chat-color: '&7'
+    join-msg: '&8» &e%player% &7加入遊戲!'
+    quit-msg: '&8« &e%player% &7離開遊戲'
+  Premium:
+    prefix: '&6Premium &7| &6'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» &6%player% &7加入遊戲!'
+    quit-msg: '&8« &6%player% &7離開遊戲'
+  default:
+    prefix: '&7'
+    suffix: '&f:'
+    chat-color: '&7'
+    join-msg: '&8» %player% &7加入遊戲!'
+    quit-msg: '&8« %player% &7離開遊戲'

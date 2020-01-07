@@ -1,0 +1,190 @@
+IRON_INGOT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: IRON_INGOT
+IRON_ORE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: IRON_ORE
+DIAMOND_SWORD1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DAMAGE_ALL: 1
+DIAMOND_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_BLOCK
+DIAMOND_SWORD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_SWORD
+DIAMOND_SWORD2:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DAMAGE_ALL: 2
+DIAMOND_SWORD3:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DAMAGE_ALL: 3
+DIAMOND_SWORD4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DAMAGE_ALL: 4
+DIAMOND_SWORD5:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DAMAGE_ALL: 5
+DIAMOND_SWORD3:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DAMAGE_ALL: 1
+§BDiamond Armored Elytra:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §BDiamond Armored Elytra
+    lore:
+    - Elytra with Diamond level protection.
+    attribute-modifiers:
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.armorToughness
+        slot: CHEST
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 8.0
+        name: generic.armor
+        slot: CHEST
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+ELYTRA:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: ELYTRA
+DIAMOND_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: DIAMOND_CHESTPLATE
+§EGolden Armored Elytra:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §EGolden Armored Elytra
+    lore:
+    - Elytra with Gold level protection.
+    attribute-modifiers:
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.0
+        name: generic.armorToughness
+        slot: CHEST
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 5.0
+        name: generic.armor
+        slot: CHEST
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+GOLDEN_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: GOLDEN_CHESTPLATE
+§7Iron Armored Elytra:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §7Iron Armored Elytra
+    lore:
+    - Elytra with Iron level protection.
+    attribute-modifiers:
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.0
+        name: generic.armorToughness
+        slot: CHEST
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 6.0
+        name: generic.armor
+        slot: CHEST
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+IRON_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: IRON_CHESTPLATE
+§2Leather Armored Elytra:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §2Leather Armored Elytra
+    lore:
+    - Elytra with Leather level protection.
+    attribute-modifiers:
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.0
+        name: generic.armorToughness
+        slot: CHEST
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.0
+        name: generic.armor
+        slot: CHEST
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+LEATHER_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2227
+  type: LEATHER_CHESTPLATE

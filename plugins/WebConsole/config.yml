@@ -1,0 +1,9 @@
+useSSL: false
+StoreType: JKS
+KeyStore: plugins/WebConsole/keystore.jks
+StorePassword: storepassword
+KeyPassword: keypassword
+host: play.1481.ga
+port: 25566
+password: hsnu14811481
+language: en

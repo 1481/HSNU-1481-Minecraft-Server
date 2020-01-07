@@ -1,0 +1,66 @@
+# 
+# +------------------------------------------------------+ #
+# |                     - Config -                       | #
+# |               Plugin by Christian34	  	      	     | #
+# +------------------------------------------------------+ #
+config:
+  enabled: true
+  version: 1.6.3
+  lang: en_EN
+  sql:
+    enabled: false
+    host: localhost
+    port: 3306
+    database: EasyPrefix
+    username: username
+    password: password
+    table-prefix: ep
+  join-quit-messsages:
+    enabled: true
+    hide-messages: false
+    sound:
+      receiver: all
+      join:
+        enabled: true
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP; 20; 1
+      quit:
+        enabled: true
+        sound: ENTITY_EXPERIENCE_BOTTLE_THROW; 18; 1
+  user:
+    custom-prefix:
+      enabled: false
+  subgroups:
+    enabled: true
+  gender:
+    enabled: true
+    force-gender: false
+    types:
+    - female
+    - male
+    - intersex
+  gui:
+    show-all-chatcolors: true
+  chat:
+    duplicate-white-spaces: false
+    color:
+      rainbow:
+        colors:
+        - YELLOW
+        - BLUE
+        - LIGHT_PURPLE
+        - RED
+        - DARK_AQUA
+        - GOLD
+        - GREEN
+        - DARK_PURPLE
+  join-quit-messages:
+    enabled: true
+    sound:
+      join:
+        enabled: true
+        sound: ENTITY_EXPERIENCE_ORB_PICKUP; 20; 1
+      quit:
+        enabled: true
+        sound: ENTITY_EXPERIENCE_BOTTLE_THROW; 18; 1
+      receiver: all
+    hide-messages: false

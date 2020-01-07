@@ -1,0 +1,32 @@
+ignore-creative: true
+run-away-time: 15
+enable-raid: true
+disable-music:
+    - villager
+    - chicken
+    - cow
+    - squid
+    - sheep
+    - rabbit
+    - pig
+    - parrot
+    - ocelot
+    - bat
+    - horse
+    
+mcjukebox:
+    fade-time: 3
+    channel: "default"
+    volume: 100
+    
+ignore-playervsplayer: false
+
+default-battlesound: 
+    - "https://audio.jukehost.co.uk/p/e1ed6c25e972c60066f8d81e2533b75cdf6261e7/2c55e818227"
+
+mob:
+    zombie:
+        sound: 
+        - "https://audio.jukehost.co.uk/p/e1ed6c25e972c60066f8d81e2533b75cdf6261e7/2c55e818227"
+        name: "LouShunt"
+        

@@ -1,0 +1,25 @@
+Plugins List
+
+- EasyPrefix.jar
+> https://www.spigotmc.org/resources/easyprefix-chatcolor-gui-genders-custom-prefixes-sql.44580/
+
+- battlemusic.jar
+> https://www.spigotmc.org/resources/battlemusic-1-12-1-15.73435/
+
+- Skript.jar
+> https://github.com/SkriptLang/Skript/releases
+
+- SkQuery-4.1.1.jar
+> https://www.spigotmc.org/resources/skquery-1-9-1-15.36631/
+
+- CraftEnhance-2.3.4.jar
+> https://www.spigotmc.org/resources/1-9-1-14-custom-recipes-and-crafting-craftenhance.65058/
+
+- ArmoredElytra.jar
+> https://www.spigotmc.org/resources/armored-elytra.47136/
+
+- ChestCleaner.jar
+> https://www.spigotmc.org/resources/chestcleaner-sorting-plugin-api.40313/
+
+- TreeGravity-4.3.0.jar
+> https://www.spigotmc.org/resources/1-15-treegravity.59283/
