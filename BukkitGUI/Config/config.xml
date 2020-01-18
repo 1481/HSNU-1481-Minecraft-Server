@@ -69,12 +69,12 @@
     <enable_tabserveroptions>true</enable_tabserveroptions>
   </options>
   <lightmode>false</lightmode>
-  <language>C:\Users\jacob.ACERTC-605\AppData\Roaming\Bertware/BukkitGUI\Localization/default.xml</language>
+  <language>C:\Users\jacob.ACERTC-605\Documents\GitHub\HSNU-1481-Minecraft-Server\BukkitGUI\Localization/traditionalChinese.xml</language>
   <pluginmanager>
     <installedplugins>
     </installedplugins>
     <installplugins>
     </installplugins>
   </pluginmanager>
-  <autostart>false</autostart>
+  <autostart>true</autostart>
 </config>
