@@ -321,3 +321,11 @@ ft-Server/server.prop2020/01/21;10:09:01:0068;Fine;mainform;Adding 0 Items to Bu
 2020/01/21;18:25:42:0251;Fine;mainform;Error thread started...;-;
 2020/01/21;18:25:42:0251;Fine;mainform;Error thread started...;-;
 2020/01/21;18:25:42:0251;Fine;mainform;Output thread started...;-;
+2020/01/21;20:50:26:0146;Fine;mainform;Stopping server...;stop_server();
+2020/01/21;20:50:27:0830;Info;server;The server has stopped... Cleaning up...;-;
+2020/01/21;20:50:27:0831;Info;mainform;The server has stopped. Updating UI;-;
+2020/01/21;20:50:27:0836;Info;mainform;The server has stopped. Updated UI;-;
+2020/01/21;20:50:27:0836;Info;server;The server has stopped... Cleanup finished;-;
+2020/01/21;20:50:27:0836;Info;mainform;thd_read_error exited;-;
+2020/01/21;20:50:27:0946;Info;mainform;thd_read_output exited;-;
+2020/01/21;20:50:34:0818;Fine;mainform;Closing mainform;-;

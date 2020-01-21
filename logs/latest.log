@@ -242,3 +242,34 @@ org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 [18:26:06] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     This is the latest version!
 [18:26:06] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
 [18:26:07] [Server thread/WARN]: [ViaVersion] You are running a development version, please report any bugs to GitHub.
+[20:50:26] [Server thread/INFO]: Stopping the server
+[20:50:26] [Server thread/INFO]: Stopping server
+[20:50:26] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.0.0-SNAPSHOT
+[20:50:26] [Server thread/INFO]: [EasyPrefix] Disabling EasyPrefix v1.6.3
+[20:50:26] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.0.0-SNAPSHOT
+[20:50:26] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:50:26] [Server thread/INFO]: [TreeGravity] Disabling TreeGravity v4.3.0
+[20:50:26] [Server thread/INFO]: [TreeGravity] TreeGravity disabled
+[20:50:26] [Server thread/INFO]: [ArmoredElytra] Disabling ArmoredElytra v2.4.11
+[20:50:26] [Server thread/INFO]: [CraftEnhance] Disabling CraftEnhance v2.3.4
+[20:50:26] [Server thread/INFO]: [BattleMusic] Disabling BattleMusic v2.5
+[20:50:26] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.9
+[20:50:26] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[20:50:26] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[20:50:26] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
+[20:50:26] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
+[20:50:26] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
+[20:50:26] [Server thread/INFO]: [ChestCleaner] Disabling ChestCleaner v1.7
+[20:50:26] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.5
+[20:50:26] [Server thread/INFO]: [PlayerListGUI] Disabling PlayerListGUI v2.0
+[20:50:26] [Server thread/INFO]: Saving players
+[20:50:26] [Server thread/INFO]: Saving worlds
+[20:50:26] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[20:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:50:26] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[20:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:50:26] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[20:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:50:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
