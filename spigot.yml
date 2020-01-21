@@ -24,7 +24,7 @@ settings:
   netty-threads: 4
   timeout-time: 60
   restart-on-crash: true
-  restart-script: ./start.sh
+  restart-script: ./start.cmd
   attribute:
     maxHealth:
       max: 2048.0
@@ -33,12 +33,12 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
+  whitelist: 你不在伺服器白名單中!
+  unknown-command: 未知的指令，輸入 /help 以獲得更多資訊。
+  server-full: 伺服器已滿!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  restart: 伺服器重新啟動中...
 commands:
   silent-commandblock-console: false
   replace-commands:
@@ -97,10 +97,10 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     entity-activation-range:
-      animals: 32
+      animals: 12
       monsters: 32
       raiders: 48
-      misc: 16
+      misc: 12
       tick-inactive-villagers: true
     growth:
       cactus-modifier: 100

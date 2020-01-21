@@ -1,7 +1,7 @@
 <config version="1.2">
   <java>
     <jre8x64>undefined</jre8x64>
-    <alternative_java>C:\Program Files\Java\jre1.8.0_231\bin\java.exe</alternative_java>
+    <alternative_java>C:\Program Files\Java\jre1.8.0_241\bin\java.exe</alternative_java>
   </java>
   <advanced>
     <spamfilter>
@@ -24,7 +24,7 @@
     <server>4</server>
     <minram>1028</minram>
     <maxram>4182</maxram>
-    <jar>C:\Users\jacob.ACERTC-605\Documents\GitHub\HSNU-1481-Minecraft-Server\spigot-1.15.1.jar</jar>
+    <jar>D:\JacobLinCool\Github\HSNU-1481-Minecraft-Server\spigot-1.15.1.jar</jar>
     <custom_args>-DIReallyKnowWhatIAmDoingISwear</custom_args>
     <custom_switch>
     </custom_switch>
@@ -69,7 +69,7 @@
     <enable_tabserveroptions>true</enable_tabserveroptions>
   </options>
   <lightmode>false</lightmode>
-  <language>C:\Users\jacob.ACERTC-605\Documents\GitHub\HSNU-1481-Minecraft-Server\BukkitGUI\Localization/traditionalChinese.xml</language>
+  <language>D:\JacobLinCool\Github\HSNU-1481-Minecraft-Server\BukkitGUI\Localization/traditionalChinese.xml</language>
   <pluginmanager>
     <installedplugins>
     </installedplugins>

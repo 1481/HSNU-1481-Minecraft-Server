@@ -1,277 +1,283 @@
-[18:35:08] [Server thread/INFO]: Starting minecraft server version 1.15.1
-[18:35:08] [Server thread/INFO]: Loading properties
-[18:35:09] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2ee05fe-d31f05f (MC: 1.15.1) (Implementing API version 1.15.1-R0.1-SNAPSHOT)
-[18:35:09] [Server thread/INFO]: Debug logging is disabled
-[18:35:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:35:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:35:09] [Server thread/INFO]: Default game type: SURVIVAL
-[18:35:09] [Server thread/INFO]: Generating keypair
-[18:35:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:35:10] [Server thread/INFO]: Using default channel type
-[18:35:15] [Server thread/WARN]: Plugin FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432 does not specify an api-version.
-[18:35:15] [Server thread/ERROR]: Could not load 'plugins\ChatItem-1.3.6.4.jar' in folder 'plugins'
+[10:09:06] [Server thread/INFO]: Loading properties
+[10:09:06] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-2ee05fe-d31f05f (MC: 1.15.1) (Implementing API version 1.15.1-R0.1-SNAPSHOT)
+[10:09:06] [Server thread/INFO]: Debug logging is disabled
+[10:09:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:09:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:09:06] [Server thread/INFO]: Default game type: SURVIVAL
+[10:09:06] [Server thread/INFO]: Generating keypair
+[10:09:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:09:06] [Server thread/INFO]: Using default channel type
+[10:09:11] [Server thread/WARN]: Plugin FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432 does not specify an api-version.
+[10:09:11] [Server thread/ERROR]: Could not load 'plugins\ChatItem-1.3.6.4.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: ProtocolLib
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:221) [spigot-1.15.1.jar:git-Spigot-2ee05fe-d31f05f]
 	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.loadPlugins(CraftServer.java:351) [spigot-1.15.1.jar:git-Spigot-2ee05fe-d31f05f]
 	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:202) [spigot-1.15.1.jar:git-Spigot-2ee05fe-d31f05f]
 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:783) [spigot-1.15.1.jar:git-Spigot-2ee05fe-d31f05f]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_231]
-[18:35:15] [Server thread/WARN]: Plugin LoginSecurity v2.1.9 does not specify an api-version.
-[18:35:15] [Server thread/WARN]: Plugin BattleMusic v2.5 does not specify an api-version.
-[18:35:15] [Server thread/WARN]: Plugin ViaVersion v3.0.0-SNAPSHOT does not specify an api-version.
-[18:35:16] [Server thread/WARN]: Plugin ViaBackwards v3.0.0-SNAPSHOT does not specify an api-version.
-[18:35:16] [Server thread/INFO]: [PlayerListGUI] Loading PlayerListGUI v2.0
-[18:35:16] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.5
-[18:35:16] [Server thread/INFO]: [ChestCleaner] Loading ChestCleaner v1.7
-[18:35:16] [Server thread/INFO]: [FastLogin] Loading FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
-[18:35:16] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v2.1.9
-[18:35:16] [Server thread/INFO]: [BattleMusic] Loading BattleMusic v2.5
-[18:35:16] [Server thread/INFO]: [CraftEnhance] Loading CraftEnhance v2.3.4
-[18:35:16] [Server thread/INFO]: [ArmoredElytra] Loading ArmoredElytra v2.4.11
-[18:35:16] [Server thread/INFO]: [TreeGravity] Loading TreeGravity v4.3.0
-[18:35:16] [Server thread/INFO]: [TreeGravity] Update Checker is off
-[18:35:16] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.0.0-SNAPSHOT
-[18:35:16] [Server thread/INFO]: [ViaVersion] ViaVersion 3.0.0-SNAPSHOT is now loaded, injecting!
-[18:35:17] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 block mapping...
-[18:35:17] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 item mapping...
-[18:35:17] [Server thread/INFO]: [ViaVersion] Loading new 1.13 tags...
-[18:35:17] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 enchantment mapping...
-[18:35:17] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 sound mapping...
-[18:35:17] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 plugin channel mappings...
-[18:35:17] [Server thread/INFO]: [ViaVersion] Loading translation mappping
-[18:35:18] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 blockstate mapping...
-[18:35:18] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 block mapping...
-[18:35:18] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 item mapping...
-[18:35:18] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 sound mapping...
-[18:35:18] [Server thread/INFO]: [ViaVersion] Loading 1.14 blockstates...
-[18:35:18] [Server thread/INFO]: [ViaVersion] Loading 1.14 heightmap data...
-[18:35:18] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 blockstate mapping...
-[18:35:19] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 block mapping...
-[18:35:19] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 item mapping...
-[18:35:19] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 sound mapping...
-[18:35:19] [Server thread/INFO]: [EasyPrefix] Loading EasyPrefix v1.6.3
-[18:35:19] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.0.0-SNAPSHOT
-[18:35:19] [Server thread/INFO]: [FastLogin] Enabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
-[18:35:19] [Server thread/INFO]: HikariPool-1 - Starting...
-[18:35:19] [Server thread/INFO]: HikariPool-1 - Start completed.
-[18:35:19] [Server thread/WARN]: [FastLogin] Either ProtocolLib or ProtocolSupport have to be installed if you don't use BungeeCord
-[18:35:20] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.0.0-SNAPSHOT
-[18:35:20] [Server thread/INFO]: [ViaBackwards] Loading 1.13 -> 1.12.2 block mapping...
-[18:35:20] [Server thread/INFO]: [ViaBackwards] Loading 1.13 -> 1.12.2 sound mapping...
-[18:35:20] [Server thread/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 block mapping...
-[18:35:21] [Server thread/INFO]: [ViaBackwards] Loading 1.15 -> 1.14.4 mappings...
-[18:35:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:35:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:35:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:35:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:35:22] [Server thread/INFO]: Preparing level "world"
-[18:35:22] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[18:35:22] [Server thread/INFO]: Loaded 6 recipes
-[18:35:23] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:35:23] [Server thread/INFO]: View Distance: 10
-[18:35:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:35:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:35:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:35:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:35:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:35:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:35:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:35:23] [Server thread/INFO]: Mob Spawn Range: 6
-[18:35:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:35:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:35:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:35:23] [Server thread/INFO]: Max TNT Explosions: 100
-[18:35:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:35:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:35:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:35:23] [Server thread/INFO]: View Distance: 10
-[18:35:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:35:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:35:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:35:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:35:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:35:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:35:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:35:23] [Server thread/INFO]: Mob Spawn Range: 6
-[18:35:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:35:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:35:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:35:23] [Server thread/INFO]: Max TNT Explosions: 100
-[18:35:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:35:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:35:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:35:23] [Server thread/INFO]: View Distance: 10
-[18:35:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:35:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:35:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:35:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:35:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:35:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:35:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:35:23] [Server thread/INFO]: Mob Spawn Range: 6
-[18:35:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:35:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:35:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:35:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:35:23] [Server thread/INFO]: Max TNT Explosions: 100
-[18:35:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:35:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:35:23] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[18:35:24] [Server thread/INFO]: Preparing spawn area: 0%
-[18:35:24] [Server thread/INFO]: Preparing spawn area: 0%
-[18:35:24] [Server thread/INFO]: Preparing spawn area: 0%
-[18:35:24] [Server thread/INFO]: Time elapsed: 1370 ms
-[18:35:24] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[18:35:25] [Server thread/INFO]: Preparing spawn area: 0%
-[18:35:25] [Server thread/INFO]: Preparing spawn area: 0%
-[18:35:25] [Server-Worker-1/INFO]: Preparing spawn area: 95%
-[18:35:26] [Server thread/INFO]: Time elapsed: 1412 ms
-[18:35:26] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[18:35:26] [Server thread/INFO]: Preparing spawn area: 0%
-[18:35:26] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[18:35:27] [Server thread/INFO]: Time elapsed: 817 ms
-[18:35:27] [Server thread/INFO]: [PlayerListGUI] Enabling PlayerListGUI v2.0
-[18:35:27] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.5
-[18:35:27] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_15_R1, using UniversalSkinFactory.
-[18:35:27] [Server thread/INFO]: [ChestCleaner] Enabling ChestCleaner v1.7
-[18:35:27] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v2.1.9
-[18:35:27] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[18:35:27] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[18:35:27] [Server thread/INFO]: [LoginSecurity] Connection to database....
-[18:35:27] [Server thread/ERROR]: ebean.properties not found
-[18:35:27] [Server thread/INFO]: DataSourcePool [LoginSecurityDB] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
-[18:35:28] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
-[18:35:28] [ForkJoinPool.commonPool-worker-1/INFO]: [PlayerListGUI] Thank you for using PlayerListGUI v2.0 by SavageAvocado.
-[18:35:28] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
-[18:35:28] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
-[18:35:28] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
-[18:35:28] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
-[18:35:28] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
-[18:35:28] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
-[18:35:28] [Server thread/INFO]: [LoginSecurity] Checking database version...
-[18:35:28] [Server thread/INFO]: [LoginSecurity] Applied 0 missing database upgrades.
-[18:35:28] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[18:35:28] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[18:35:28] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[18:35:28] [Server thread/INFO]: [BattleMusic] Enabling BattleMusic v2.5
-[18:35:28] [Server thread/INFO]: [BattleMusic] Failed to load MCJukebox
-[18:35:28] [Server thread/INFO]: [BattleMusic] Failed to load NoteBlockAPI
-[18:35:28] [Server thread/INFO]: [CraftEnhance] Enabling CraftEnhance v2.3.4
-[18:35:32] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[18:35:32] [Server thread/INFO]: Loaded 6 recipes
-[18:35:32] [Server thread/INFO]: [CraftEnhance] CraftEnhance is managed and developed by DutchJelly.
-[18:35:32] [Server thread/INFO]: [CraftEnhance] If you find a bug in the plugin, please report it to https://dev.bukkit.org/projects/craftenhance.
-[18:35:32] [Server thread/INFO]: [CraftEnhance] Running a version check to check that the server is compatible with game version 1.13, 1.14, 1.15.
-[18:35:32] [Server thread/INFO]: [CraftEnhance] The correct version is installed.
-[18:35:33] [Server thread/INFO]: [CraftEnhance] CraftEnhance is up to date.
-[18:35:33] [Server thread/INFO]: [ArmoredElytra] Enabling ArmoredElytra v2.4.11
-[18:35:33] [Server thread/INFO]: [ArmoredElytra] Enabling stats! Thanks, it really helps!
-[18:35:33] [Server thread/INFO]: [ArmoredElytra] Durability penalty for flying disabled!
-[18:35:33] [Server thread/INFO]: [ArmoredElytra] Allowed enchantments:
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - DURABILITY
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - PROTECTION_FIRE
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - PROTECTION_EXPLOSIONS
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - PROTECTION_PROJECTILE
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - PROTECTION_ENVIRONMENTAL
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - THORNS
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - BINDING_CURSE
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - VANISHING_CURSE
-[18:35:33] [Server thread/INFO]: [ArmoredElytra]  - MENDING
-[18:35:33] [Server thread/INFO]: [TreeGravity] Enabling TreeGravity v4.3.0
-[18:35:33] [Server thread/INFO]: [TreeGravity] TreeGravity enabled
-[18:35:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.0.0-SNAPSHOT
-[18:35:33] [Server thread/INFO]: [EasyPrefix] Enabling EasyPrefix v1.6.3
-[18:35:33] [Server thread/INFO]: [EasyPrefix] Plugin has been enabled! Version: 1.6.3
-[18:35:33] [Server thread/INFO]: [EasyPrefix] If you like the plugin or you have suggestions, please write a review on spigotmc.org!
-[18:35:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:35:34] [Server thread/INFO]: Done (11.557s)! For help, type "help"
-[18:35:34] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.15.1(575)
-[18:35:34] [Server thread/INFO]: [FastLogin] Hooking into auth plugin: LoginSecurity
-[18:35:34] [Thread-18/INFO]: [ArmoredElytra] You seem to be using the latest version of this plugin!
-[18:35:35] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:35:35] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +===============+
-[18:35:35] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     | SkinsRestorer |
-[18:35:35] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +===============+
-[18:35:35] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:35:35] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     Current version: 13.7.5
-[18:35:35] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     This is the latest version!
-[18:35:35] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:35:35] [Server thread/WARN]: [ViaVersion] You are running a development version, please report any bugs to GitHub.
-[20:00:23] [Server thread/INFO]: Stopping the server
-[20:00:24] [Server thread/INFO]: Stopping server
-[20:00:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.0.0-SNAPSHOT
-[20:00:24] [Server thread/INFO]: [EasyPrefix] Disabling EasyPrefix v1.6.3
-[20:00:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.0.0-SNAPSHOT
-[20:00:24] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[20:00:24] [Server thread/INFO]: [TreeGravity] Disabling TreeGravity v4.3.0
-[20:00:24] [Server thread/INFO]: [TreeGravity] TreeGravity disabled
-[20:00:24] [Server thread/INFO]: [ArmoredElytra] Disabling ArmoredElytra v2.4.11
-[20:00:24] [Server thread/INFO]: [CraftEnhance] Disabling CraftEnhance v2.3.4
-[20:00:24] [Server thread/INFO]: [BattleMusic] Disabling BattleMusic v2.5
-[20:00:24] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.9
-[20:00:24] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[20:00:24] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[20:00:24] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
-[20:00:24] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
-[20:00:24] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
-[20:00:24] [Server thread/INFO]: [ChestCleaner] Disabling ChestCleaner v1.7
-[20:00:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.5
-[20:00:24] [Server thread/INFO]: [PlayerListGUI] Disabling PlayerListGUI v2.0
-[20:00:24] [Server thread/INFO]: Saving players
-[20:00:24] [Server thread/INFO]: Saving worlds
-[20:00:24] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[20:00:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:00:24] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[20:00:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:00:24] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[20:00:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:00:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:00:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:00:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[10:09:11] [Server thread/WARN]: Plugin LoginSecurity v2.1.9 does not specify an api-version.
+[10:09:11] [Server thread/WARN]: Plugin BattleMusic v2.5 does not specify an api-version.
+[10:09:11] [Server thread/WARN]: Plugin ViaVersion v3.0.0-SNAPSHOT does not specify an api-version.
+[10:09:12] [Server thread/WARN]: Plugin ViaBackwards v3.0.0-SNAPSHOT does not specify an api-version.
+[10:09:12] [Server thread/INFO]: [PlayerListGUI] Loading PlayerListGUI v2.0
+[10:09:12] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.5
+[10:09:12] [Server thread/INFO]: [ChestCleaner] Loading ChestCleaner v1.7
+[10:09:12] [Server thread/INFO]: [FastLogin] Loading FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
+[10:09:12] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v2.1.9
+[10:09:12] [Server thread/INFO]: [BattleMusic] Loading BattleMusic v2.5
+[10:09:12] [Server thread/INFO]: [CraftEnhance] Loading CraftEnhance v2.3.4
+[10:09:12] [Server thread/INFO]: [ArmoredElytra] Loading ArmoredElytra v2.4.11
+[10:09:12] [Server thread/INFO]: [TreeGravity] Loading TreeGravity v4.3.0
+[10:09:12] [Server thread/INFO]: [TreeGravity] Update Checker is off
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.0.0-SNAPSHOT
+[10:09:12] [Server thread/INFO]: [ViaVersion] ViaVersion 3.0.0-SNAPSHOT is now loaded, injecting!
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 block mapping...
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 item mapping...
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading new 1.13 tags...
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 enchantment mapping...
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 sound mapping...
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 plugin channel mappings...
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading translation mappping
+[10:09:12] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 blockstate mapping...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 block mapping...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 item mapping...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 sound mapping...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.14 blockstates...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.14 heightmap data...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 blockstate mapping...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 block mapping...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 item mapping...
+[10:09:13] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 sound mapping...
+[10:09:13] [Server thread/INFO]: [EasyPrefix] Loading EasyPrefix v1.6.3
+[10:09:13] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.0.0-SNAPSHOT
+[10:09:13] [Server thread/INFO]: [FastLogin] Enabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
+[10:09:13] [Server thread/INFO]: HikariPool-1 - Starting...
+[10:09:13] [Server thread/INFO]: HikariPool-1 - Start completed.
+[10:09:13] [Server thread/WARN]: [FastLogin] Either ProtocolLib or ProtocolSupport have to be installed if you don't use BungeeCord
+[10:09:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.0.0-SNAPSHOT
+[10:09:14] [Server thread/INFO]: [ViaBackwards] Loading 1.13 -> 1.12.2 block mapping...
+[10:09:14] [Server thread/INFO]: [ViaBackwards] Loading 1.13 -> 1.12.2 sound mapping...
+[10:09:14] [Server thread/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 block mapping...
+[10:09:15] [Server thread/INFO]: [ViaBackwards] Loading 1.15 -> 1.14.4 mappings...
+[10:09:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:09:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:09:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:09:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:09:15] [Server thread/INFO]: Preparing level "world"
+[10:09:16] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[10:09:16] [Server thread/INFO]: Loaded 6 recipes
+[10:09:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:09:16] [Server thread/INFO]: View Distance: 10
+[10:09:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:09:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:09:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:09:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:09:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:09:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:09:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:09:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:09:16] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 32 / Ra 48 / Mi 12 / Tiv true
+[10:09:16] [Server thread/INFO]: Mob Spawn Range: 6
+[10:09:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:09:16] [Server thread/INFO]: Max TNT Explosions: 100
+[10:09:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:09:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[10:09:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:09:16] [Server thread/INFO]: View Distance: 10
+[10:09:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:09:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:09:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:09:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:09:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:09:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:09:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:09:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:09:16] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 32 / Ra 48 / Mi 12 / Tiv true
+[10:09:16] [Server thread/INFO]: Mob Spawn Range: 6
+[10:09:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:09:16] [Server thread/INFO]: Max TNT Explosions: 100
+[10:09:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:09:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[10:09:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:09:16] [Server thread/INFO]: View Distance: 10
+[10:09:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:09:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:09:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:09:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:09:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:09:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:09:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:09:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:09:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:09:16] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 32 / Ra 48 / Mi 12 / Tiv true
+[10:09:16] [Server thread/INFO]: Mob Spawn Range: 6
+[10:09:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:09:16] [Server thread/INFO]: Max TNT Explosions: 100
+[10:09:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:09:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[10:09:16] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[10:09:17] [Server thread/INFO]: Preparing spawn area: 0%
+[10:09:17] [Server thread/INFO]: Preparing spawn area: 0%
+[10:09:17] [Server thread/INFO]: Preparing spawn area: 0%
+[10:09:17] [Server thread/INFO]: Time elapsed: 1336 ms
+[10:09:17] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[10:09:18] [Server thread/INFO]: Preparing spawn area: 0%
+[10:09:18] [Server-Worker-3/INFO]: Preparing spawn area: 95%
+[10:09:18] [Server thread/INFO]: Time elapsed: 973 ms
+[10:09:18] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[10:09:19] [Server thread/INFO]: Preparing spawn area: 0%
+[10:09:19] [Server-Worker-5/INFO]: Preparing spawn area: 83%
+[10:09:19] [Server thread/INFO]: Time elapsed: 791 ms
+[10:09:19] [Server thread/INFO]: [PlayerListGUI] Enabling PlayerListGUI v2.0
+[10:09:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.5
+[10:09:20] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_15_R1, using UniversalSkinFactory.
+[10:09:20] [Server thread/INFO]: [ChestCleaner] Enabling ChestCleaner v1.7
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v2.1.9
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Connection to database....
+[10:09:20] [Server thread/ERROR]: ebean.properties not found
+[10:09:20] [Server thread/INFO]: DataSourcePool [LoginSecurityDB] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[10:09:20] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[10:09:20] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[10:09:20] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[10:09:20] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[10:09:20] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[10:09:20] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[10:09:20] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Checking database version...
+[10:09:20] [ForkJoinPool.commonPool-worker-1/INFO]: [PlayerListGUI] Thank you for using PlayerListGUI v2.0 by SavageAvocado.
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Applied 0 missing database upgrades.
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[10:09:20] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[10:09:20] [Server thread/INFO]: [BattleMusic] Enabling BattleMusic v2.5
+[10:09:20] [Server thread/INFO]: [BattleMusic] Failed to load MCJukebox
+[10:09:20] [Server thread/INFO]: [BattleMusic] Failed to load NoteBlockAPI
+[10:09:20] [Server thread/INFO]: [CraftEnhance] Enabling CraftEnhance v2.3.4
+[10:09:23] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[10:09:23] [Server thread/INFO]: Loaded 6 recipes
+[10:09:24] [Server thread/INFO]: [CraftEnhance] CraftEnhance is managed and developed by DutchJelly.
+[10:09:24] [Server thread/INFO]: [CraftEnhance] If you find a bug in the plugin, please report it to https://dev.bukkit.org/projects/craftenhance.
+[10:09:24] [Server thread/INFO]: [CraftEnhance] Running a version check to check that the server is compatible with game version 1.13, 1.14, 1.15.
+[10:09:24] [Server thread/INFO]: [CraftEnhance] The correct version is installed.
+[10:09:24] [Server thread/INFO]: [CraftEnhance] CraftEnhance is up to date.
+[10:09:24] [Server thread/INFO]: [ArmoredElytra] Enabling ArmoredElytra v2.4.11
+[10:09:24] [Server thread/INFO]: [ArmoredElytra] Enabling stats! Thanks, it really helps!
+[10:09:24] [Server thread/INFO]: [ArmoredElytra] Durability penalty for flying disabled!
+[10:09:24] [Server thread/INFO]: [ArmoredElytra] Allowed enchantments:
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - DURABILITY
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - PROTECTION_FIRE
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - PROTECTION_EXPLOSIONS
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - PROTECTION_PROJECTILE
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - PROTECTION_ENVIRONMENTAL
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - THORNS
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - BINDING_CURSE
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - VANISHING_CURSE
+[10:09:24] [Server thread/INFO]: [ArmoredElytra]  - MENDING
+[10:09:24] [Server thread/INFO]: [TreeGravity] Enabling TreeGravity v4.3.0
+[10:09:24] [Server thread/INFO]: [TreeGravity] TreeGravity enabled
+[10:09:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.0.0-SNAPSHOT
+[10:09:24] [Server thread/INFO]: [EasyPrefix] Enabling EasyPrefix v1.6.3
+[10:09:24] [Server thread/INFO]: [EasyPrefix] Plugin has been enabled! Version: 1.6.3
+[10:09:24] [Server thread/INFO]: [EasyPrefix] If you like the plugin or you have suggestions, please write a review on spigotmc.org!
+[10:09:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:09:24] [Server thread/INFO]: Done (8.849s)! For help, type "help"
+[10:09:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.15.1(575)
+[10:09:25] [Server thread/INFO]: [FastLogin] Hooking into auth plugin: LoginSecurity
+[10:09:25] [Thread-18/INFO]: [ArmoredElytra] You seem to be using the latest version of this plugin!
+[10:09:25] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:09:25] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +===============+
+[10:09:25] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     | SkinsRestorer |
+[10:09:25] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +===============+
+[10:09:25] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:09:25] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     Current version: 13.7.5
+[10:09:25] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     This is the latest version!
+[10:09:25] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:09:25] [Server thread/WARN]: [ViaVersion] You are running a development version, please report any bugs to GitHub.
+[16:54:40] [User Authenticator #1/INFO]: UUID of player Jacoblin2014 is c80bd6fd-2a3a-3306-9282-41b7b1057713
+[16:54:41] [Server thread/INFO]: Jacoblin2014[/192.168.50.1:3475] logged in with entity id 315 at ([world]-51.52980561180295, 64.0, -12.48998272773668)
+[17:03:32] [Server thread/INFO]: Jacoblin2014 lost connection: Disconnected
+[17:03:33] [Server thread/INFO]: « Jacoblin2014 離開遊戲
+[17:05:40] [User Authenticator #2/INFO]: UUID of player Jacoblin2014 is c80bd6fd-2a3a-3306-9282-41b7b1057713
+[17:05:40] [Server thread/INFO]: Jacoblin2014[/192.168.50.1:3627] logged in with entity id 1123 at ([world]-79.10224161920856, 94.0, 1.0659000259112548)
+[17:06:12] [Server thread/INFO]: Jacoblin2014 lost connection: Disconnected
+[17:06:12] [Server thread/INFO]: « Jacoblin2014 離開遊戲
+[18:10:15] [Server thread/INFO]: Stopping the server
+[18:10:15] [Server thread/INFO]: Stopping server
+[18:10:15] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.0.0-SNAPSHOT
+[18:10:15] [Server thread/INFO]: [EasyPrefix] Disabling EasyPrefix v1.6.3
+[18:10:15] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.0.0-SNAPSHOT
+[18:10:15] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:10:15] [Server thread/INFO]: [TreeGravity] Disabling TreeGravity v4.3.0
+[18:10:15] [Server thread/INFO]: [TreeGravity] TreeGravity disabled
+[18:10:15] [Server thread/INFO]: [ArmoredElytra] Disabling ArmoredElytra v2.4.11
+[18:10:15] [Server thread/INFO]: [CraftEnhance] Disabling CraftEnhance v2.3.4
+[18:10:15] [Server thread/INFO]: [BattleMusic] Disabling BattleMusic v2.5
+[18:10:15] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.9
+[18:10:15] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[18:10:15] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[18:10:15] [Server thread/INFO]: [FastLogin] Disabling FastLogin v1.10-git484855724b794de1fe057cf7360245362658b432
+[18:10:15] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
+[18:10:15] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
+[18:10:15] [Server thread/INFO]: [ChestCleaner] Disabling ChestCleaner v1.7
+[18:10:15] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.5
+[18:10:15] [Server thread/INFO]: [PlayerListGUI] Disabling PlayerListGUI v2.0
+[18:10:15] [Server thread/INFO]: Saving players
+[18:10:15] [Server thread/INFO]: Saving worlds
+[18:10:15] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:10:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:10:16] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[18:10:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:10:16] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[18:10:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:10:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:10:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:10:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
