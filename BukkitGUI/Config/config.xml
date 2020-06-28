@@ -22,12 +22,11 @@
     <bukkit_get_version>true</bukkit_get_version>
     <jre>6</jre>
     <server>4</server>
-    <minram>1028</minram>
-    <maxram>4182</maxram>
-    <jar>D:\JacobLinCool\Github\HSNU-1481-Minecraft-Server\spigot-1.15.1.jar</jar>
+    <minram>1024</minram>
+    <maxram>4096</maxram>
+    <jar>D:\JacobLinCool\Github\HSNU-1481-Minecraft-Server\spigot-1.15.2.jar</jar>
     <custom_args>-DIReallyKnowWhatIAmDoingISwear</custom_args>
-    <custom_switch>
-    </custom_switch>
+    <custom_switch>nogui</custom_switch>
     <remote_host>
     </remote_host>
     <remote_username>

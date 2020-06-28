@@ -1,1 +1,16 @@
-<tasks version="1.0"></tasks>
+<tasks version="1.0">
+  <task name="每日重啟" enabled="true">
+    <trigger type="current_time">00:00:00</trigger>
+    <action type="restart_server">
+    </action>
+  </task>
+  <task name="定時重啟" enabled="true">
+    <trigger type="elapsed_time">03:00:00</trigger>
+    <action type="restart_server">
+    </action>
+  </task>
+  <task name="定時重啟警告" enabled="true">
+    <trigger type="elapsed_time">02:57:00</trigger>
+    <action type="command">/tell @a Server Restart in 3 Minutes.</action>
+  </task>
+</tasks>

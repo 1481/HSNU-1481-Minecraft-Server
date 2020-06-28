@@ -49,7 +49,7 @@ Strings:
 - Default auto sorting was set to %boolean.
 cleaningItem:
   ==: org.bukkit.inventory.ItemStack
-  v: 2227
+  v: 2230
   type: IRON_HOE
 active: true
 durability: true

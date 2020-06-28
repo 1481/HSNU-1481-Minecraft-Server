@@ -668,4 +668,5 @@
   <text string="Tell us what you think!&#xD;&#xA;Give feedback by clicking here">Tell+us+what+you+think!%0d%0aGive+feedback+by+clicking+here</text>
   <text string="You might need to restart the GUI, in order for &#xD;&#xA;these settings to take full eff">You+might+need+to+restart+the+GUI%2c+in+order+for+%0d%0athese+settings+to+take+full+eff</text>
   <text string="BukkitGui v2 is available! visit get.bertware.net">BukkitGui+v2+is+available!+visit+get.bertware.net</text>
+  <text string="Restarting the server...">Restarting+the+server...</text>
 </language>
